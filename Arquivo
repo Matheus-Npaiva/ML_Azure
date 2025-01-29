@@ -1,0 +1,10 @@
+{
+    "id": "/subscriptions/5b68db07-61b0-408c-a9c5-6a385975f8d4/resourceGroups/Primeiro_portfólio",
+    "name": "Primeiro_portfólio",
+    "type": "Microsoft.Resources/resourceGroups",
+    "location": "eastus",
+    "properties": {
+        "provisioningState": "Succeeded"
+    },
+    "apiVersion": "2020-06-01"
+}
