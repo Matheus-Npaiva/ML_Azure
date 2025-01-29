@@ -34,15 +34,21 @@ Para testar os 30 dias gratuitos do Microsoft Azure, basta criar a sua conta, in
 </div>
 * Mantenhas as mesmas opções que eu selecionei, altere apenas as especificações de acordo com sua necessidade, vá para a próxima aba e dê um nome para sua computação e já pode finalizar esta parte.
 
-1. Clone este repositório: `git clone https://github.com/[seu-nome-de-usuario]/[nome-do-repositorio].git`
-2. Instale as dependências: `pip install -r requirements.txt`
-3. Configure as credenciais da Azure: [fornecer instruções sobre como configurar as credenciais, por exemplo, criar um arquivo .env com as chaves de API]
-4. Execute o script principal: `python main.py`
+## Conjunto de dados
+Para este treinamento eu usei o conjunto de dados fornecido pela própria microsoft, que é de aluguel de bicicletas, na barra da esquerda tem a opção 'Dados' que eu recomendo fortemente que você carregue o conjunto de dados antes de criar de fato do modelo de machine learning, meu conjunto de dados pode ser encontrado em 'aka.ms/bike-rentals' após acessar esse link o conjunto de dados será baixado.
 
-## Exemplos
+## Treinando o modelo
+Na aba da esquerda terá a opção 'ML automatizado' clique nesta oçpão para fazer seu treinamento de máquina.
+* Clique em Novo trabalho de ML automatizado para começar.
+* Dentro da criação dê um nome do trabalho e de experimento, não precisa alterar as marcas.
+* Na próxima etapa você deverá selecionar o tipo de tarefa a ser feita, no meu caso eu selecionei a 'regressão', mas ela varia de acordo com o seu problema, logo abaixo terá o seu conjunto de dados que carregamos anteriormente.
+* Nas configurações de tarefas, você terá várias opções, não vou abordar detalhadamente aqui esse assunto porque isso varia muito conforme o seu problema, no meu caso eu selecionei 'Random forest' e 'LightGBM', com a métrica do erro quadrático médio padronizado.
+* Na aba de computação basta apenas selecionar a computação que criamos anteriormente, criar a computação antes de fazer ML automatizado evita alguns problemas.
+* Por fim basta concluir e esperar alguns minutos até que fique pronto nosso modelo de aprendizado de máquina.
 
-[Incluir exemplos de uso do seu projeto, como trechos de código ou imagens com os resultados da IA]
+## Fazendo o deploy do modelo
+* Para fazer o deplou do modelo basta ir na aba da direita e procurar por 'Modelos' selecionar o seu modelo e clicar em 'Implantar' e depois em 'Serviço Web'.
+<div align="center">
+ <img src="https://github.com/user-attachments/assets/a72d1e91-be57-46c5-ac89-a868674d59a9" width="700px" />
+</div>
 
-## Contribuição
-
-Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir issues e enviar pull requests.
