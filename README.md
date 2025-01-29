@@ -1,4 +1,4 @@
-# ML_Azure
+# Machine Learning e AI em Azure
 Automatização de machine learning no Azure
 
 ## Azure AI
@@ -51,4 +51,8 @@ Na aba da esquerda terá a opção 'ML automatizado' clique nesta oçpão para f
 <div align="center">
  <img src="https://github.com/user-attachments/assets/a72d1e91-be57-46c5-ac89-a868674d59a9" width="700px" />
 </div>
+* Nesta parte basta dar um nome e uma descrição a seu critério.
+* Na opção 'Tipos de computação' devemos selecionar 'Instância de Contêiner do Azure' e aguardar o deploy do modelo (isso levará um tempo).
+## Finalização
+Por fim teremos nosso modelo implementado, para consultar nosso modelo basta ir em 'Pontos de extremidade' que fica na aba da esquerda da página. Para implementar nosso modelo em produção podemos utilizar uma API, o link será fornecido nessa aba, o arquivo .json do modelo estará disponível no meu git. Espero que isso tenha te ajudado de alguma maneira, até mais!
 
