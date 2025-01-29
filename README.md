@@ -24,16 +24,13 @@ Para testar os 30 dias gratuitos do Microsoft Azure, basta criar a sua conta, in
 <div align="center">
  <img src="https://github.com/user-attachments/assets/c1836c58-360b-4375-a705-986b9db7e682" width="700px" />
 </div>
-* Azure Cognitive Services:
-    * [Listar os serviços específicos que você utilizou, por exemplo:]
-        * Language Understanding (LUIS)
-        * Computer Vision API
-        * Text Analytics API
-* [Listar outras tecnologias utilizadas, por exemplo:]
-    * Python
-    * Bibliotecas de IA (TensorFlow, PyTorch, etc.)
+* No meu caso eu já tenho meus diretórios, basta clicar no botão em azul como mostra a imagem acima.
 
-## Como executar
+## Dentro do seu espaço de trabalho no Launch Studio
+* Vá para a aba da esquerda e procure por computação.
+* Em computação procure por cluster em computação e clique em 'Novo', após clicar em novo será aberto uma tela semalhante a essa apresentado abaixo:
+
+* Mantenhas as mesmas opções que eu selecionei, altere apenas as especificações de acordo com sua necessidade, vá para a próxima aba e dê um nome para sua computação e já pode finalizar esta parte.
 
 1. Clone este repositório: `git clone https://github.com/[seu-nome-de-usuario]/[nome-do-repositorio].git`
 2. Instale as dependências: `pip install -r requirements.txt`
