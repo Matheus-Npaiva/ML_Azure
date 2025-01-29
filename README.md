@@ -29,7 +29,9 @@ Para testar os 30 dias gratuitos do Microsoft Azure, basta criar a sua conta, in
 ## Dentro do seu espaço de trabalho no Launch Studio
 * Vá para a aba da esquerda e procure por computação.
 * Em computação procure por cluster em computação e clique em 'Novo', após clicar em novo será aberto uma tela semalhante a essa apresentado abaixo:
-
+<div align="center">
+ <img src="https://github.com/user-attachments/assets/5ddd7cb8-9b8a-4dd0-981e-81bda0022fe6" width="700px" />
+</div>
 * Mantenhas as mesmas opções que eu selecionei, altere apenas as especificações de acordo com sua necessidade, vá para a próxima aba e dê um nome para sua computação e já pode finalizar esta parte.
 
 1. Clone este repositório: `git clone https://github.com/[seu-nome-de-usuario]/[nome-do-repositorio].git`
