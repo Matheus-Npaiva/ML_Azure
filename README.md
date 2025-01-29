@@ -47,10 +47,12 @@ Na aba da esquerda terá a opção 'ML automatizado' clique nesta oçpão para f
 * Por fim basta concluir e esperar alguns minutos até que fique pronto nosso modelo de aprendizado de máquina.
 
 ## Fazendo o deploy do modelo
+
 * Para fazer o deplou do modelo basta ir na aba da direita e procurar por 'Modelos' selecionar o seu modelo e clicar em 'Implantar' e depois em 'Serviço Web'.
 <div align="center">
  <img src="https://github.com/user-attachments/assets/a72d1e91-be57-46c5-ac89-a868674d59a9" width="700px" />
 </div>
+
 * Nesta parte basta dar um nome e uma descrição a seu critério.
 * Na opção 'Tipos de computação' devemos selecionar 'Instância de Contêiner do Azure' e aguardar o deploy do modelo (isso levará um tempo).
 ## Finalização
