@@ -21,9 +21,9 @@ Para testar os 30 dias gratuitos do Microsoft Azure, basta criar a sua conta, in
 ## Dentro do Launch Studio
 * Se for sua primeira vez dentro do launch studio será necessário criar um espaço de trabalho 
 
-div align="center"
+<div align="center">
 img src="https://github.com/user-attachments/assets/c1836c58-360b-4375-a705-986b9db7e682" width="400px" /
-/div
+</div>
 * Azure Cognitive Services:
     * [Listar os serviços específicos que você utilizou, por exemplo:]
         * Language Understanding (LUIS)
